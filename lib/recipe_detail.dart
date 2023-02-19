@@ -26,7 +26,7 @@ class _RecipeDetailState extends State<RecipeDetail> {
           children: <Widget>[
             SizedBox(
               height: 300,
-              width: double.infinity,　//this
+              width: double.infinity, //this
               child: Image(image: AssetImage(widget.recipe.imageUrl)),
             ),
             const SizedBox(
