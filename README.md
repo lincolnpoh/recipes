@@ -1,12 +1,10 @@
 # recipes
 
-A new Flutter practice project which suggests recipes for users.
+First Flutter practice project which suggests recipes for users.
 
-## Getting Started
+## Online resources
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+Refer to the resources below for more help:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)

@@ -26,16 +26,16 @@ class _RecipeDetailState extends State<RecipeDetail> {
           children: <Widget>[
             SizedBox(
               height: 300,
-              width: double.infinity, //this
+              width: double.infinity,
               child: Image(image: AssetImage(widget.recipe.imageUrl)),
             ),
             const SizedBox(
               height: 4,
-            ),
+            ), //To separate the image with the text below with a small space
             Text(
               widget.recipe.label,
-              style: const TextStyle().copyWith(),
-              //style: const TextStyle(fontSize: 18),
+              //style: const TextStyle().copyWith(),
+              style: const TextStyle(fontSize: 18),
             ),
             //TODO: Add Expanded
             //TODO: Add Slider() here
